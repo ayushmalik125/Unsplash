@@ -1,0 +1,410 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: helvetica , sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: rgb(118, 118, 118);
+    text-decoration: none;
+}
+
+/******************************************* LEFT NAVBAR ********************************************/
+.navbar-left{
+    width:4rem;
+    height: 100vh;
+    border-right: 0.1rem solid rgb(225, 224, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.left-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon{
+    font-size: 1.1rem;
+    margin:0.1rem 0;
+    padding: 0.7rem;
+    color:rgb(118, 118, 118);
+}
+.logo{
+    font-size:2rem ;
+    color: rgb(17,17,17);
+}
+.photos{
+    /* color:black;
+    background-color:rgb(219, 217, 217); */
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+.illustrations{
+    color:black;
+    background-color:rgb(237, 236, 236);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+.breaker{
+    font-size: 2rem;
+    transform: rotate(90deg);
+    font-weight: 100;
+    margin: 0;
+    color: rgb(212, 211, 211);
+}
+
+
+
+/******************************************* TOP NAVBAR 1ST *********************************************/
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar-top{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+.top1{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding-top: 1rem;
+}
+.searchbar{
+    display: flex;
+    font-size: 1.3rem;
+    width: 100%;
+    margin: 0 2.5rem;
+}
+.searchbar-logo{
+    background-color: rgb(238,238,238);
+    width: 3rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:1.5rem 0 0 1.5rem ;
+}
+.searchbar-text{
+     background-color: rgb(238,238,238);
+     border: none;
+     height: 2.5rem;
+     width: 100%;
+}
+.searchbar-cam-logo{
+     background-color: rgb(238,238,238);
+     width: 3rem;
+     height: 2.5rem;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 1.5rem 1.5rem 0;
+}
+.getunsplash{
+    color: black;
+    margin: 0 2rem 0 0;
+    /* width: 10rem; */
+    white-space: nowrap;
+}
+.submitanimage{
+    border: 2px solid rgb(201, 201, 201);
+    padding:0.3rem 0.6rem;
+    border-radius: 0.5rem;
+    margin: 0 2rem;
+    /* width: 15rem; */
+    white-space: nowrap;
+}
+
+
+
+/***************************************** TOP NAVBAR 2ND ********************************/
+
+.top2{
+    margin: 1.5rem 0;
+}
+.featured{
+    border-bottom: 2px solid black;
+    color: black;
+}
+.top2-box{
+padding:1.5rem 0 1.5rem 0 ;
+margin: 0 0 0 1rem;
+}
+
+
+
+
+/************************************************** HERO ********************************************/
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25rem;
+    width: 100%;
+}
+
+
+/**************************************** HERO-AWARDS ***************************************************/
+
+.awards-img{
+    width: 20rem;
+    height: 20rem;
+}
+
+/*******************************************HERO-COLLECTIONS*********************************************/
+.collections{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:0 1rem;
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid lightgray;
+    border-radius: 0.5rem;
+}
+.collections-text{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(54, 53, 53);
+}
+.collections-text a{
+    text-decoration: 0.1rem solid underline grey;
+    color: rgb(149, 148, 148);
+}
+.collection{
+    display: flex;
+    font-size: 0.9rem;
+}
+.collection div h4{
+    color: rgb(90, 89, 89);
+}
+.collection div p{
+    font-weight: 0.1rem;
+    font-size: 0.8rem;
+}
+.collection img{
+    width: 2.5rem;
+    border-radius: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+
+/******************************************* TRENDING *********************************************/
+.trending{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:0 1rem;
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid lightgray;
+    border-radius: 0.5rem;
+}
+
+
+/******************************************* TRENDING ***************************************************/
+.trending{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.trending-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.trending-box div{
+    border: 1px solid lightgray;
+    padding: 0.3rem 0.4rem;
+    color: gray;
+    margin: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+}
+.trending-searches{
+    display: flex;
+}
+.trending-searches a{
+    text-decoration: 1px solid underline grey;
+}
+
+
+
+
+
+
+
+/******************************************* One of a kind *********************************************/
+.one-of-a-kind{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20rem;
+    height: 20rem;
+    border: 2px solid lightgray;
+    border-radius: 0.5rem;
+}
+.one-of-a-kind img{
+    border-radius: 0.5rem;
+}
+.one-of-a-kind-text{
+    padding: 0 0 1rem 1rem;
+}
+.one-of-a-kind-text h3{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.one-of-a-kind-text p{
+    font-size: 0.8rem;
+}
+
+
+
+
+/**************************************** CONTENT *****************************************************/
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 1rem;
+}
+.content img{
+    width: 90%;
+    margin: 0.6em 0.3rem;
+}
+.column{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    /* width: 45%; */
+    
+}
+
+
+
+/**************************************** MEDIA-QUERIES *****************************************************/
+
+@media screen and (max-width: 1360px) {
+    .one-of-a-kind{
+        display: none;
+    }
+}
+@media screen and (max-width: 1070px) {
+    .collections{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    .column3{
+        display: none;
+    }
+    .getunsplash, .login, .submitanimage{
+        display: none;
+    }
+    /* 
+    CHANGE SIDEBAR*/
+
+
+    .navbar-left {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+        border-right: none;
+        border-bottom: 1px solid rgb(225, 224, 224);
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+        z-index: 10;
+    }
+    body{
+        flex-direction: row;
+    }
+    .left-top, .left-bottom {
+        flex-direction: row;
+    }
+    main {
+        margin-top: 4rem;
+    }
+    .breaker, .discover, .folder, .downloads{
+        display: none;
+    }
+
+
+
+
+}
+@media screen and (max-width: 750px) {
+    .trending{
+        display: none;
+    }
+    .content{
+        flex-direction: column;
+    }
+    /*
+    TOP NAvBAR 2ND KA KUCH KARO */
+
+
+
+    .top2 {
+        display: flex;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
+    .top2-box {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+
+}
+
+
+/**************************************** HOVER *****************************************************/
+.top2-box:hover, .login:hover{
+    color: black;
+}
+.submitanimage:hover{
+    border-color: black;
+    color: black;
+}
+.icon:hover{
+    color:black;
+    background-color:rgb(237, 236, 236);
+    border-radius: 0.5rem;
+}
+.content img:hover{
+    filter: brightness(70%);
+    cursor: pointer;
+}
