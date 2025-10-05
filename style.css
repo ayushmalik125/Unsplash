@@ -291,7 +291,7 @@ margin: 0 0 0 1rem;
 
 /**************************************** MEDIA-QUERIES *****************************************************/
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1270px) {
     .awards{
         display: none;
     }
@@ -357,8 +357,8 @@ margin: 0 0 0 1rem;
     .collections{
         display: none;
     }
-    .column2{
-        display: none;
+    .content{
+        flex-direction: column;
     }
 }
 
